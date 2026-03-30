@@ -1,15 +1,36 @@
 // var
 
-var altura = 5;
-var comprimento = 7;
+// var altura = 5;
+// var comprimento = 7;
 
-area = altura * comprimento;
+// area = altura * comprimento;
 
-console.log(area);
+// console.log(area);
 
 // let
 
-let forma = 'retângulo';
-let altura = 5; 
-let comprimento = 7;
+// let forma = 'retângulo';
+// let altura = 5; 
+// let comprimento = 7;
+// let area;
+
+// if (forma === ' retangulo'){
+//   area = altura * cmprimento;
+// } else {
+//     area = (altura * comprimento) / 2;
+// }
+// console.log(area);
+
+// const
+
+const forma = 'triangulo';
+const altura = 5;
+const comprimento = 7;
 let area;
+
+if (forma === 'triangulo'){
+    area = altura * comprimento;
+} else {
+  area = (altura * comprimento) / 2;
+}
+console.log(area);
